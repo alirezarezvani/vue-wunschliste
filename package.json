@@ -2,7 +2,11 @@
   "name": "wunschliste-app",
   "version": "0.0.1",
   "description": "Eine kostenfreie Wunschliste App für dein Alltag.",
-  "keywords": ["vue-material", "material-design", "vue"],
+  "keywords": [
+    "vue-material",
+    "material-design",
+    "vue"
+  ],
   "main": "index.js",
   "dependencies": {
     "@vue/cli-plugin-pwa": "3.5.1",
@@ -12,6 +16,7 @@
     "vue": "2.5.3",
     "vue-lazyload": "1.2.6",
     "vue-loader": "15.7.0",
+    "vue-masonry": "0.11.7",
     "vue-material": "1.0.0-beta-10.2",
     "vue-router": "3.0.2",
     "vue-social-sharing": "2.4.2",

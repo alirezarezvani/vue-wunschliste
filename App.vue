@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <h1>Wunschliste!</h1>
+    <h2>Damit Du auch nichts mehr vergisst ...</h2>
     <TodoList/>
   </div>
 </template>
-
 <script>
 import TodoList from "./components/TodoList.vue";
 
@@ -14,7 +14,6 @@ export default {
   }
 };
 </script>
-
 <style lang="scss">
 @import "./variables.scss";
 
@@ -25,7 +24,7 @@ export default {
 }
 
 #app {
-  max-width: 400px;
+  max-width: 325px;
   margin: 0 auto;
   line-height: 1.4;
   font-family: Roboto, sans-serif;
@@ -38,6 +37,13 @@ body {
 }
 h1 {
   text-align: center;
+  line-height: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: -40px;
 }
 li {
   padding-top: 30px;
